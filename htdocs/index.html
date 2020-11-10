@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Excuse generator</h1>
+    <form action="php/excuse.php" method="GET">
+      <label for="name">Name of the child : </label>
+      <input type="text" name="name" />
+      <label for="name">Name of the teacher : </label>
+      <input type="text" name="teacher" />
+      <input type="radio" name="gender" value="boy" />
+      <label for="boy">boy</label>
+      <input type="radio" name="gender" value="girl" />
+      <label for="girl">Girl</label>
+      <p>Reason for the absence :</p>
+      <input type="radio" name="excuse" value="illness" />
+      <label for="illness">illness</label>
+      <input type="radio" name="excuse" value="deathP" />
+      <label for="deathP">death of the pet</label>
+      <input type="radio" name="excuse" value="activity" />
+      <label for="activity">extra-curricular activity</label>
+      <input type="radio" name="excuse" value="deadReal" />
+      <label for="deadReal">He is dead</label>
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>

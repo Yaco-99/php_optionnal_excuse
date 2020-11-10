@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+.letterHead {
+  display: flex;
+  justify-content: space-between;
+}
+.letter {
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 60vw;
+  margin: auto;
+}
